@@ -2,8 +2,7 @@
 
 When writing any block of code that is logically subordinate to the line immediately before and after it, that block should be indented two spaces more than the surrounding lines
 
-* Do not put any tab characters anywhere in your code. You would do best to stop pressing the tab key entirely.
-* Increase the indent level for all blocks by two extra spaces
+* Increase the indent level for all blocks by two extra spaces.  If using tab, convert to two spaces.
     * When a line opens a block, the next line starts 2 spaces further in than the line that opened
 
         ```javascript
@@ -42,12 +41,9 @@ When writing any block of code that is logically subordinate to the line immedia
         }});
         ```
 
-    * use sublime's arrow collapsing as a guide. do the collapsing lines seem like they should be 'contained' by the line with an arrow on it?
-
-
 ### Variable names
 
-* A single descriptive word is best.
+* A single descriptive word is best.  If using multiple words, use camelCase.
 
     ```javascript
     // good:
@@ -129,17 +125,6 @@ When writing any block of code that is logically subordinate to the line immedia
     }
     ```
 
-* Don't use function statements for the entire first half of the course. They introduce a slew of subtle new rules to how the language behaves, and without a clear benefit. Once you and all your peers are expert level in the second half, you can start to use the more (needlessly) complicated option if you like.
-
-    ```javascript
-    // good:
-    var go = function(){...};
-
-    // bad:
-    function stop(){...};
-    ```
-
-
 ### Semicolons
 
 * Don't forget semicolons at the end of lines
@@ -180,9 +165,6 @@ When writing any block of code that is logically subordinate to the line immedia
     alert('hi');
   }
   ```
-
-# Supplemental reading
-
 ### Code density
 
 * Conserve line quantity by minimizing the number lines you write in. The more concisely your code is written, the more context can be seen in one screen.
@@ -191,30 +173,31 @@ When writing any block of code that is logically subordinate to the line immedia
 ### Comments
 
 * Provide comments any time you are confident it will make reading your code easier.
-* Be aware that comments come at some cost. They make a file longer and can drift out of sync with the code they annotate.
 * Comment on what code is attempting to do, not how it will achieve it.
-* A good comment is often less effective than a good variable name.
-
 
 ### Padding & additional whitespace
 
-* Generally, we don't care where you put extra spaces, provided they are not distracting.
-* You may use it as padding for visual clarity. If you do though, make sure it's balanced on both sides.
+* Do not add spaces in function instantiation or accessing indices.
 
     ```javascript
-    // optional:
-    alert( "I chose to put visual padding around this string" );
+    // good
+    alert("I detest visual padding around this string");
+    dogs[1];
 
     // bad:
-    alert( "I only put visual padding on one side of this string");
+    alert( "I embrace visual padding in this string" );
+    cats[ 3 ];
     ```
 
-* You may use it to align two similar lines, but it is not recommended. This pattern usually leads to unnecessary edits of many lines in your code every time you change a variable name.
+* Do not align instantiation brackets or obsess over symmetric alignment.
 
     ```javascript
-    // discouraged:
+    // bad:
     var firstItem  = getFirst ();
     var secondItem = getSecond();
+
+    var dogs    = [];
+    var puppies = [];
     ```
 
 * Put `else` and `else if` statements on the same line as the ending curly brace for the preceding `if` block
@@ -235,28 +218,9 @@ When writing any block of code that is logically subordinate to the line immedia
     }
     ```
 
-
-
 ### Working with files
 
 * Do not end a file with any character other than a newline.
-* Don't use the -a or -m flags for `git commit` for the first half of the class, since they conceal what is actually happening (and do slightly different things than most people expect).
-
-    ```shell
-    # good:
-    > git add .
-    > git commit
-    [save edits to the commit message file using the text editor that opens]
-
-    # bad:
-    > git commit -a
-    [save edits to the commit message file using the text editor that opens]
-
-    # bad:
-    > git add .
-    > git commit -m "updated algorithm"
-    ```
-
 
 ### Opening or closing too many blocks at once
 
@@ -275,7 +239,6 @@ When writing any block of code that is logically subordinate to the line immedia
       }
     });
     ```
-
 
 ### Variable declaration
 
@@ -296,13 +259,6 @@ When writing any block of code that is logically subordinate to the line immedia
     // use sparingly:
     var eel, fly;
     ```
-
-### Capital letters in variable names
-
-* Some people choose to use capitalization of the first letter in their variable names to indicate that they contain a [class](http://en.wikipedia.org/wiki/Class_(computer_science\)). This capitalized variable might contain a function, a prototype, or some other construct that acts as a representative for the whole class.
-* Optionally, some people use a capital letter only on functions that are written to be run with the keyword `new`.
-* Do not use all-caps for any variables. Some people use this pattern to indicate an intended "constant" variable, but the language does not offer true constants, only mutable variables.
-
 
 ### Minutia
 
@@ -354,27 +310,4 @@ When writing any block of code that is logically subordinate to the line immedia
     // bad:
     var dog = 'dog';
     var cat = "cat";
-    ```
-
-
-### HTML
-
-* Do not use ids for html elements. Use a class instead.
-
-    ```html
-    <!-- good -->
-    <img class="lucy" />
-
-    <!-- bad -->
-    <img id="lucy" />
-    ```
-
-* Do not include a `type=text/javascript"` attribute on script tags
-
-    ```html
-    <!-- good -->
-    <script src="a.js"></script>
-
-    <!-- bad -->
-    <script src="a.js" type="text/javascript"></script>
     ```
