@@ -5,7 +5,6 @@
 
 There is an approach called "working backwards" that is widely used at Amazon. They work backwards from the customer, rather than starting with an idea for a product and trying to bolt customers onto it. While working backwards can be applied to any specific product decision, using this approach is especially important when developing new products or features.
 
-For new initiatives a product manager typically starts by writing an internal press release announcing the finished product. The target audience for the press release is the new/updated product's customers, which can be retail customers or internal users of a tool or technology. Internal press releases are centered around the customer problem, how current solutions (internal or external) fail, and how the new product will blow away existing solutions.
 
 If the benefits listed don't sound very interesting or exciting to customers, then perhaps they're not (and shouldn't be built). Instead, the product manager should keep iterating on the press release until they've come up with benefits that actually sound like benefits. Iterating on a press release is a lot less expensive than iterating on the product itself (and quicker!).
 
@@ -16,29 +15,29 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+## WineKnow ##
+  A personal sommelier powered by the taste predicting algorithm.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  Feeling overwhelemed by convoluted wine lists or faced with choosing between a few different wines?  Snap a picture and WineKnow will do the rest with personal recommendations based on your flavor palette.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  When you're in a restaurant or wine store, the wine selection is often complicated and unfamiliar.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  Snap a picture of a wine list or collection of bottles with WineKnow and we take care of the rest.  WineKnow uses space age technology to determine which wine is best suited for you.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  "WineKnow has been an integral part of a handful of nights."
+
+  "The last thing I need is another glass of wine, but if I have one and lets be honest, I probably will, at least it will be the best. Thanks WineKnow."
+
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  Just create an account and start snapping pictures to receive instant wine recommendations custom tailored to your palette.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  "It worked."
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  Stop drinking suboptimal wine.  Join the thousands of WineKnows today and maximize your wine flow.
