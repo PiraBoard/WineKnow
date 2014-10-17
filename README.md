@@ -1,12 +1,13 @@
-# Project Name
+# WineKnow
 
-> Pithy project description
+A mobile wine somm utilizing open-source OCR technology and a sophisticated engine to provide personalized 
+recommendations of the wines you'll love.
 
 ## Team
 
-  - __Product Owner__: teamMember
-  - __Scrum Master__: teamMember
-  - __Development Team Members__: teamMember, teamMember
+  - __Product Owner__: Mike Horan
+  - __Scrum Master__: Michael Pinter
+  - __Development Team Members__: Andrew Teich, Jameson Gamble
 
 ## Table of Contents
 
@@ -44,9 +45,8 @@ bower install
 
 ### Roadmap
 
-View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
-
+View the project roadmap [here](https://github.com/onyxpickle/onyxpickle/issues)
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+See [CONTRIBUTING.md](https://github.com/onyxpickle/onyxpickle/blob/master/CONTRIBUTING.md) for contribution guidelines.
